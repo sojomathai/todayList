@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		CD13B71E24BE2F4000AC0968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13B71D24BE2F4000AC0968 /* AppDelegate.swift */; };
 		CD13B72024BE2F4000AC0968 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13B71F24BE2F4000AC0968 /* SceneDelegate.swift */; };
-		CD13B72224BE2F4000AC0968 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13B72124BE2F4000AC0968 /* ViewController.swift */; };
 		CD13B72524BE2F4000AC0968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD13B72324BE2F4000AC0968 /* Main.storyboard */; };
 		CD13B72824BE2F4000AC0968 /* Today_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD13B72624BE2F4000AC0968 /* Today_List.xcdatamodeld */; };
 		CD13B72A24BE2F4100AC0968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD13B72924BE2F4100AC0968 /* Assets.xcassets */; };
 		CD13B72D24BE2F4100AC0968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD13B72B24BE2F4100AC0968 /* LaunchScreen.storyboard */; };
+		CD13B73824BE318700AC0968 /* ListToDOTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13B73724BE318700AC0968 /* ListToDOTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD13B71A24BE2F4000AC0968 /* Today List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Today List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD13B71D24BE2F4000AC0968 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD13B71F24BE2F4000AC0968 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CD13B72124BE2F4000AC0968 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD13B72424BE2F4000AC0968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD13B72724BE2F4000AC0968 /* Today_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Today_List.xcdatamodel; sourceTree = "<group>"; };
 		CD13B72924BE2F4100AC0968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD13B72C24BE2F4100AC0968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD13B72E24BE2F4100AC0968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD13B73724BE318700AC0968 /* ListToDOTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListToDOTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +60,38 @@
 			children = (
 				CD13B71D24BE2F4000AC0968 /* AppDelegate.swift */,
 				CD13B71F24BE2F4000AC0968 /* SceneDelegate.swift */,
-				CD13B72124BE2F4000AC0968 /* ViewController.swift */,
-				CD13B72324BE2F4000AC0968 /* Main.storyboard */,
+				CD13B73524BE2F5900AC0968 /* Model */,
+				CD13B73424BE2F4A00AC0968 /* View */,
+				CD13B73624BE2F6300AC0968 /* Controller */,
 				CD13B72924BE2F4100AC0968 /* Assets.xcassets */,
 				CD13B72B24BE2F4100AC0968 /* LaunchScreen.storyboard */,
 				CD13B72E24BE2F4100AC0968 /* Info.plist */,
-				CD13B72624BE2F4000AC0968 /* Today_List.xcdatamodeld */,
 			);
 			path = "Today List";
+			sourceTree = "<group>";
+		};
+		CD13B73424BE2F4A00AC0968 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD13B72324BE2F4000AC0968 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD13B73524BE2F5900AC0968 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD13B72624BE2F4000AC0968 /* Today_List.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD13B73624BE2F6300AC0968 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD13B73724BE318700AC0968 /* ListToDOTableViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD13B72224BE2F4000AC0968 /* ViewController.swift in Sources */,
 				CD13B71E24BE2F4000AC0968 /* AppDelegate.swift in Sources */,
 				CD13B72024BE2F4000AC0968 /* SceneDelegate.swift in Sources */,
 				CD13B72824BE2F4000AC0968 /* Today_List.xcdatamodeld in Sources */,
+				CD13B73824BE318700AC0968 /* ListToDOTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
