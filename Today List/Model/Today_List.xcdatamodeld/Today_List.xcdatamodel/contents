@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E287" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="ListToDO" representedClassName="ListToDO" syncable="YES" codeGenerationType="class">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19G73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CatageoryType" representedClassName=".CatageoryType" syncable="YES" codeGenerationType="class">
+        <attribute name="itemName" optional="YES" attributeType="String"/>
+        <relationship name="relationshipToList" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ListToDO" inverseName="relationShiptoCat" inverseEntity="ListToDO"/>
+    </entity>
+    <entity name="ListToDO" representedClassName=".ListToDO" syncable="YES" codeGenerationType="class">
         <attribute name="finish" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="relationShiptoCat" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CatageoryType" inverseName="relationshipToList" inverseEntity="CatageoryType"/>
     </entity>
     <elements>
-        <element name="ListToDO" positionX="-45" positionY="0" width="128" height="73"/>
+        <element name="CatageoryType" positionX="-39.890625" positionY="-61.9296875" width="128" height="73"/>
+        <element name="ListToDO" positionX="166.1953125" positionY="-29.9765625" width="128" height="88"/>
     </elements>
 </model>

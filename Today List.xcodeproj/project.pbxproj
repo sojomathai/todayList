@@ -3,29 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		307728427A8305C90A00BE0A /* Pods_Today_List.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04EC5D831668797FC721CDD /* Pods_Today_List.framework */; };
 		CD13B71E24BE2F4000AC0968 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13B71D24BE2F4000AC0968 /* AppDelegate.swift */; };
 		CD13B72024BE2F4000AC0968 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13B71F24BE2F4000AC0968 /* SceneDelegate.swift */; };
 		CD13B72524BE2F4000AC0968 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD13B72324BE2F4000AC0968 /* Main.storyboard */; };
-		CD13B72824BE2F4000AC0968 /* Today_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD13B72624BE2F4000AC0968 /* Today_List.xcdatamodeld */; };
 		CD13B72A24BE2F4100AC0968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD13B72924BE2F4100AC0968 /* Assets.xcassets */; };
 		CD13B72D24BE2F4100AC0968 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD13B72B24BE2F4100AC0968 /* LaunchScreen.storyboard */; };
 		CD13B73824BE318700AC0968 /* ListToDOTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13B73724BE318700AC0968 /* ListToDOTableViewController.swift */; };
+		CD13B73A24BF734800AC0968 /* TypeOfItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13B73924BF734800AC0968 /* TypeOfItemTableViewController.swift */; };
+		CD3ADB1D24CA51CE0086955A /* CatageoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3ADB1C24CA51CE0086955A /* CatageoryType.swift */; };
+		CD3ADB1F24CA51ED0086955A /* ListToDO.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3ADB1E24CA51ED0086955A /* ListToDO.swift */; };
+		CD66992224D62F11007BC2C9 /* FInderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD66992124D62F11007BC2C9 /* FInderViewController.swift */; };
+		CD66992424D62F36007BC2C9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD66992324D62F36007BC2C9 /* MainViewController.swift */; };
+		CD66992624D64F3E007BC2C9 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CD66992524D64F3E007BC2C9 /* Inceptionv3.mlmodel */; };
+		CDFAB65524C536330007E2C6 /* SwipeViewTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFAB65424C536330007E2C6 /* SwipeViewTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48E822CB44956EA1CE6E55EE /* Pods-Today List.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Today List.release.xcconfig"; path = "Target Support Files/Pods-Today List/Pods-Today List.release.xcconfig"; sourceTree = "<group>"; };
+		C04EC5D831668797FC721CDD /* Pods_Today_List.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Today_List.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD13B71A24BE2F4000AC0968 /* Today List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Today List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD13B71D24BE2F4000AC0968 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD13B71F24BE2F4000AC0968 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CD13B72424BE2F4000AC0968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CD13B72724BE2F4000AC0968 /* Today_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Today_List.xcdatamodel; sourceTree = "<group>"; };
 		CD13B72924BE2F4100AC0968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD13B72C24BE2F4100AC0968 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD13B72E24BE2F4100AC0968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD13B73724BE318700AC0968 /* ListToDOTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListToDOTableViewController.swift; sourceTree = "<group>"; };
+		CD13B73924BF734800AC0968 /* TypeOfItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeOfItemTableViewController.swift; sourceTree = "<group>"; };
+		CD3ADB1C24CA51CE0086955A /* CatageoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatageoryType.swift; sourceTree = "<group>"; };
+		CD3ADB1E24CA51ED0086955A /* ListToDO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListToDO.swift; sourceTree = "<group>"; };
+		CD66992124D62F11007BC2C9 /* FInderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FInderViewController.swift; sourceTree = "<group>"; };
+		CD66992324D62F36007BC2C9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CD66992524D64F3E007BC2C9 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		CDFAB65424C536330007E2C6 /* SwipeViewTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeViewTableViewController.swift; sourceTree = "<group>"; };
+		E6B7CA722B92165ECA108761 /* Pods-Today List.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Today List.debug.xcconfig"; path = "Target Support Files/Pods-Today List/Pods-Today List.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				307728427A8305C90A00BE0A /* Pods_Today_List.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12FDC87C01D5A47AD51D5843 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6B7CA722B92165ECA108761 /* Pods-Today List.debug.xcconfig */,
+				48E822CB44956EA1CE6E55EE /* Pods-Today List.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		298B6442685E49F7B7ECE561 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C04EC5D831668797FC721CDD /* Pods_Today_List.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD13B71124BE2F4000AC0968 = {
 			isa = PBXGroup;
 			children = (
 				CD13B71C24BE2F4000AC0968 /* Today List */,
 				CD13B71B24BE2F4000AC0968 /* Products */,
+				12FDC87C01D5A47AD51D5843 /* Pods */,
+				298B6442685E49F7B7ECE561 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				CD13B72324BE2F4000AC0968 /* Main.storyboard */,
+				CD66992524D64F3E007BC2C9 /* Inceptionv3.mlmodel */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -81,7 +118,8 @@
 		CD13B73524BE2F5900AC0968 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CD13B72624BE2F4000AC0968 /* Today_List.xcdatamodeld */,
+				CD3ADB1C24CA51CE0086955A /* CatageoryType.swift */,
+				CD3ADB1E24CA51ED0086955A /* ListToDO.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,7 +127,11 @@
 		CD13B73624BE2F6300AC0968 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CDFAB65424C536330007E2C6 /* SwipeViewTableViewController.swift */,
 				CD13B73724BE318700AC0968 /* ListToDOTableViewController.swift */,
+				CD13B73924BF734800AC0968 /* TypeOfItemTableViewController.swift */,
+				CD66992124D62F11007BC2C9 /* FInderViewController.swift */,
+				CD66992324D62F36007BC2C9 /* MainViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -101,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD13B73124BE2F4100AC0968 /* Build configuration list for PBXNativeTarget "Today List" */;
 			buildPhases = (
+				DE66AC3436A3F7E2975132E2 /* [CP] Check Pods Manifest.lock */,
 				CD13B71624BE2F4000AC0968 /* Sources */,
 				CD13B71724BE2F4000AC0968 /* Frameworks */,
 				CD13B71824BE2F4000AC0968 /* Resources */,
+				CF29ED4ACBF9F42CE5ACD95F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,15 +204,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CF29ED4ACBF9F42CE5ACD95F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Today List/Pods-Today List-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Today List/Pods-Today List-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Today List/Pods-Today List-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE66AC3436A3F7E2975132E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Today List-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD13B71624BE2F4000AC0968 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD66992224D62F11007BC2C9 /* FInderViewController.swift in Sources */,
+				CD13B73A24BF734800AC0968 /* TypeOfItemTableViewController.swift in Sources */,
+				CD3ADB1D24CA51CE0086955A /* CatageoryType.swift in Sources */,
 				CD13B71E24BE2F4000AC0968 /* AppDelegate.swift in Sources */,
+				CD3ADB1F24CA51ED0086955A /* ListToDO.swift in Sources */,
+				CD66992624D64F3E007BC2C9 /* Inceptionv3.mlmodel in Sources */,
 				CD13B72024BE2F4000AC0968 /* SceneDelegate.swift in Sources */,
-				CD13B72824BE2F4000AC0968 /* Today_List.xcdatamodeld in Sources */,
+				CD66992424D62F36007BC2C9 /* MainViewController.swift in Sources */,
 				CD13B73824BE318700AC0968 /* ListToDOTableViewController.swift in Sources */,
+				CDFAB65524C536330007E2C6 /* SwipeViewTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +402,7 @@
 		};
 		CD13B73224BE2F4100AC0968 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6B7CA722B92165ECA108761 /* Pods-Today List.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -328,6 +421,7 @@
 		};
 		CD13B73324BE2F4100AC0968 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E822CB44956EA1CE6E55EE /* Pods-Today List.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,19 +460,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		CD13B72624BE2F4000AC0968 /* Today_List.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				CD13B72724BE2F4000AC0968 /* Today_List.xcdatamodel */,
-			);
-			currentVersion = CD13B72724BE2F4000AC0968 /* Today_List.xcdatamodel */;
-			path = Today_List.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = CD13B71224BE2F4000AC0968 /* Project object */;
 }
